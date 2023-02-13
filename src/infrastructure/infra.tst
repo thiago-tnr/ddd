@@ -1,0 +1,3 @@
+essa é uma camada especifica para falar com tudo que está fora do nosso sistema.
+do nosso dominio, que são conexões externas do nosso dominio/sistema
+fala com banco de dados, api...
