@@ -1,7 +1,7 @@
 export default class Address {
   // ele não vai ter id, pois representa apenas propriedades
   // quando eu uso _ antes da variável eu estou dizendo que ela é privada 
-  // como os atributos são privados eu não posso mudar o obj de valor, ele não possui getters e setters
+  // como os atributos são privados eu não posso mudar o obj de valor, ele não possui setters
   // então para alterar ele eu tenho que criar uma nova instancia com o dados
   _street: string = "";
   _number: number = 0;
@@ -16,7 +16,7 @@ export default class Address {
     this._zipcode = zipcode;
     this._city = city;
 
-    this.validate();
+    this.validate()
   }
 
   get street(): string {
